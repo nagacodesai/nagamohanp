@@ -10,7 +10,7 @@
 
         createChat({
             webhookUrl: 'https://nagamohanp.app.n8n.cloud/webhook/55de270e-5f5b-4bfd-bb8a-1d6d0b7d6db6/chat',
-            initialMessages: ['Hi there! 👋'],
+            initialMessages: ['Hi there! 👋 How can I help you learn more about Nagamohan Kumar Palakurthy?'],
             containerStyle: {
                 width: '80vw',
                 height: '80vh'
@@ -38,10 +38,56 @@
             width: 80vw;
             height: 80vh;
         }
+        .faq-container {
+            width: 80%;
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .faq-container h2 {
+            text-align: center;
+            color: #333;
+        }
+        .faq-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .faq-list li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .faq-list li:last-child {
+            border-bottom: none;
+        }
     </style>
 </head>
 <body>
     <h1>Nagamohan Kumar Palakurthy</h1>
     <div class="chat-container"></div>
+    
+    <div class="faq-container">
+        <h2>How to Ask Questions About My Portfolio</h2>
+        <p>Use the chat bot to learn more about my work, experience, and skills. Here are some example questions you can ask:</p>
+        <ul class="faq-list">
+            <li>1. What is Nagamohan Kumar Palakurthy's professional background?</li>
+            <li>2. What are his key skills in data analytics and AI?</li>
+            <li>3. Can you describe his experience with Generative AI?</li>
+            <li>4. What projects has he worked on recently?</li>
+            <li>5. What technologies does he specialize in?</li>
+            <li>6. How does he use AI in his work?</li>
+            <li>7. Can you explain his role at Infosys?</li>
+            <li>8. What cloud platforms does he have expertise in?</li>
+            <li>9. How does he approach data engineering?</li>
+            <li>10. What programming languages is he proficient in?</li>
+            <li>11. What certifications does he hold?</li>
+            <li>12. What are his contributions to open-source projects?</li>
+            <li>13. How does he integrate RAG into AI workflows?</li>
+            <li>14. What is his experience with Power BI and reporting?</li>
+            <li>15. Where can I find more details about his work?</li>
+        </ul>
+    </div>
 </body>
 </html>
